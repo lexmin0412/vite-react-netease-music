@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "netease_api:run": "cd ./netease_api && npm run start",
+    "netease_api:pull": "node script/pull.js",
+    "netease_api:install": "cd ./netease_api && npm install",
+    "netease_api:setup": "npm run netease_api:pull && npm run netease_api:install"
   },
   "dependencies": {
     "react": "^17.0.0",

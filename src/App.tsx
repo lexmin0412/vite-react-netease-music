@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import logo from './logo.svg'
+import Index from './pages/index'
 import './App.css'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
         <p>
@@ -37,7 +38,8 @@ function App() {
             Vite Docs
           </a>
         </p>
-      </header>
+      </header> */}
+			<Index/>
     </div>
   )
 }
